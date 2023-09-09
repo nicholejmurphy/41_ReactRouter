@@ -1,0 +1,53 @@
+.Color {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Color h2 {
+  font-size: 3rem;
+}
+
+.Color form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+
+.Color input[type="text"] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.Color input[type="color"] {
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+}
+
+.Color button {
+  text-decoration: none;
+  background-color: blueviolet;
+  width: 100%;
+  color: white;
+  font-size: 1rem;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.Color a {
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.Color a:hover {
+  font-weight: 800;
+}

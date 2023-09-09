@@ -1,0 +1,33 @@
+.Colors h1 {
+  font-size: 3rem;
+}
+
+.Colors-link-new {
+  text-decoration: none;
+  padding: 0.9rem;
+  background-color: blueviolet;
+  border-radius: 20px;
+  color: white;
+}
+
+.Colors h3 {
+  margin: 2rem;
+  font-size: 2rem;
+}
+
+.Colors-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.Colors-color {
+  margin: 0.5rem;
+  font-size: 2rem;
+  font-weight: 800;
+  text-decoration: none;
+  color: black;
+}
+
+.Colors-color:hover {
+  color: blueviolet;
+}
